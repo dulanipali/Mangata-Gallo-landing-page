@@ -1,0 +1,146 @@
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    section {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    article {
+        margin: 10px 0;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+
+
+body {
+    background-color: whitesmoke;
+    margin: 3rem 5%;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #a67c00;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /*maybe change*/
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff; /*Black with white text*/
+}
+
+nav li {
+    margin: 0 5%;
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif; /* Clean sans-serif for body text */
+    font-size: 16px;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+section > img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+}
+
+article {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #a67c00; /*Maybe change heading colours to black*/
+}
+
+article p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+article:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    display: flex;
+    border-top: 5px double #666;
+    color: #666;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+footer div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    max-width: 250px;
+    margin-bottom: 0;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 5px 0;
+}
